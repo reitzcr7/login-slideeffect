@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: -20px 0 50px;
+    /* margin: -20px 0 50px; */
 
 }
 
@@ -69,7 +69,12 @@ a{
 
 }
 
+/* .social-container:hover{
+    color: #f03616;
+} */
+
 .social-container a{
+    
     border: 1px solid #ddd;
     border-radius: 50%;
     display: inline-flex;
@@ -89,6 +94,7 @@ a{
 }
 
 button{
+
     border-radius: 20px;
     border: 1px solid #ff4b2b;
     background: #f03616;
@@ -99,6 +105,7 @@ button{
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
+    cursor: pointer;
 }
 
 button:active{
@@ -113,6 +120,12 @@ button .ghost{
     background: transparent;
     border-color: #fff;
 }
+
+button:hover{
+    background: #ff4b2b;
+}
+
+
 
 .form-container{
     position: absolute;
